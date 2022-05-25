@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: monospace;
+    background: #424242;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+#result {
+    margin-top: 2em;
+    background: #ffae4c;
+    border-radius: 10px;
+    padding: 2rem;
+    color: #fff;
+}
+
+button {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    background: #0686d6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
