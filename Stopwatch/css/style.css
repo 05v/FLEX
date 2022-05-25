@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    background-color: #222831;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #393E46;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 5rem;
+}
+
+.card--stopwatch {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.card--stopwatch img {
+    height: 40%;
+}
+
+.card--stopwatch p {
+    height: 20%;
+    font-size: 75%;
+}
+
+.card--slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.card--slider>h2 {
+    font-size: 400%;
+}
+
+.card--slider>input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 5rem;
+    height: 1.8rem;
+    background: linear-gradient(to right, #b0b6b9, #374d63);
+}
+
+.card--slider>input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.card--slider>input::-moz-range-thumb {
+    background: white;
+}
+
+.card--stopwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 1rem 1.8rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.button--start {
+    background-color: #59da4d;
+}
+
+.button--stop {
+    background-color: #ffc362;
+}
+
+.button--reset {
+    background-color: #da4d4d;
+}
